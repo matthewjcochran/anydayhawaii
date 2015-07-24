@@ -30,4 +30,10 @@ http://webhostingforstudents.com
 
 ==========
 
+Use FileZilla
+
+Quick connect doesn't work because we need SFTP. Fill the fields and go to File-> Site Manager...
+
+==========
+
 All images are scaled to 1000X1000px and exported as a .jpg at 5% using Gimp. 
