@@ -3,7 +3,6 @@
 body {
     max-width: 450px;
     margin: auto;
-    padding: 10px;
 }
 
 h1, h2, h3, p, img {margin: 0; padding: 0;}
@@ -51,8 +50,7 @@ h1 {
 }
 
 .article {
-    padding: 0.5em 0em;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #888; 
 }
 
 
@@ -68,6 +66,18 @@ img[src="img/icon/down.png"], img[src="img/icon/up.png"] {
     width: 15%;
     padding: 0.5em;
     margin: auto;
+}
+
+.article {
+    padding: 10px;
+}
+
+.article:nth-child(odd) {
+    background-color: #fee;
+}
+
+.article:nth-child(even) {
+    background-color: #eef;
 }
 
 /*****************************
