@@ -45,12 +45,14 @@ h1 {
 .photo {
     display: block;
     width: 100%;
-    margin: 0;
+    margin: auto;
     padding: 0.5em 0em;
 }
 
 .article {
-    border-top: 1px solid #888; 
+    border-top:   1px solid #ddd; 
+    border-left:  1px solid #ddd; 
+    border-right: 1px solid #ddd; 
 }
 
 
@@ -73,11 +75,11 @@ img[src="img/icon/down.png"], img[src="img/icon/up.png"] {
 }
 
 .article:nth-child(odd) {
-    background-color: #fee;
+    background-color: #fff8f8;
 }
 
 .article:nth-child(even) {
-    background-color: #eef;
+    background-color: #f8f8ff;
 }
 
 /*****************************
