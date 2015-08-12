@@ -28,6 +28,7 @@ h1 {
     padding: 5px; /* Needed to stop collapse */
     background: url('../img/title.jpg') no-repeat center;
     background-size: cover;
+    margin-bottom: 10px;
 }
 
 .main-footer {
@@ -49,13 +50,6 @@ h1 {
     padding: 0.5em 0em;
 }
 
-.article {
-    border-top:   1px solid #ddd; 
-    border-left:  1px solid #ddd; 
-    border-right: 1px solid #ddd; 
-}
-
-
 img[src="img/icon/google.png"] {
     width: 1em;
     height: 1em;
@@ -71,7 +65,10 @@ img[src="img/icon/down.png"], img[src="img/icon/up.png"] {
 }
 
 .article {
-    padding: 10px;
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 0.5em;
 }
 
 .article:nth-child(odd) {
