@@ -17,30 +17,42 @@ body {font-family: 'Pontano Sans', sans-serif;}
 
 .main-header,
 .main-footer {
-    padding: 5px; /* Needed to stop collapse */
+    padding: 15px; /* Needed to stop collapse */
     background: url('../img/title.jpg') no-repeat center;
     background-size: cover;
-    margin-bottom: 10px;
 }
 
 .main-header {
-    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+.main-header p,
 .main-header h1 {
-    font-family: 'Dancing Script', cursive;
-    font-size: 300%;
-    color: #fff;
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
-    text-align: center;
-}
-
-.main-footer p {
     font-family: 'Dancing Script', cursive;
     font-size: 125%;
     color: #fff;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
     text-align: center;
+    text-indent: 0em;
+}
+
+.main-footer p {
+    font-family: 'Pontano Sans', sans-serif;
+    color: #fff;
+/*    text-shadow: 0px 1px 1px rgba(0, 0, 0, 1); */
+    text-align: center;
+    text-indent: 0em;
+}
+
+.thanks p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 125%;
+    text-shadow: none;
+}
+
+
+.main-header h1 {
+    font-size: 300%;
 }
 
 .photo {
@@ -69,21 +81,15 @@ img[src="img/icon/up.png"] {
     border: 1px solid #ddd;
     padding: 0.5em;
     margin-bottom: 0.5em;
-}
-
-
-.article,
-.main-header,
-.main-footer {
     border-radius: 0.5em;
 }
 
 .article:nth-child(odd) {
-    background-color: #fff8f8;
+    background-color: #fff4f4;
 }
 
 .article:nth-child(even) {
-    background-color: #f8fff8;
+    background-color: #f4fff4;
 }
 
 /*****************************
